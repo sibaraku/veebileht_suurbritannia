@@ -1,0 +1,43 @@
+/* Header растянут на всю ширину */
+.custom-header {
+    background-color: #173F71;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+    color: white;
+}
+
+/* Навигационные ссылки */
+.nav-link {
+    color: white;     
+    transition: 0.3s;     
+}
+.nav-link:hover {
+    color: #7aa6e5;       
+}
+
+.custom-footer {
+    background-color: #173F71;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+    color: white;
+}
+
+.content-area {
+    background-color: #F3F1EC; 
+    margin: 0;   
+    padding: 0; 
+}
+
+.text-outline {
+  text-shadow:
+    0 0 3px #000,
+    0 0 6px #464040;
+}
+
+.red-text {
+  color: #EA3E24;
+}
