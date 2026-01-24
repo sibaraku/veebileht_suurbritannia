@@ -1,10 +1,9 @@
 /* Header растянут на всю ширину */
 .custom-header {
     background-color: #173F71;
-    width: 100vw;
+    max-width: 100vw;
+    width: 100%;
     position: relative;
-    left: 50%;
-    margin-left: -50vw;
     color: white;
 }
 
@@ -19,15 +18,15 @@
 
 .custom-footer {
     background-color: #173F71;
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    margin-left: -50vw;
+    max-width: 100vw;
+    width: 100%;
     color: white;
 }
 
 .content-area {
     background-color: #F3F1EC; 
+    max-width: 100vw;
+    width: 100%;
     margin: 0;   
     padding: 0; 
 }
@@ -41,3 +40,50 @@
 .red-text {
   color: #EA3E24;
 }
+
+
+/* красная кнопка */
+.btn-primary {
+  background-color: #EA3E24;      /* твой основной красный */
+  border: none;
+  color: #fff;
+  padding: 0.45rem 1.2rem;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/* Наведение — светло-красный */
+.btn-primary:hover {
+  background-color: #ea5a44;      /* светло-красный */
+  color: #fff;
+}
+
+.carousel-inner img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.text-block {
+  margin-top: -35px; /* Поднимает весь блок текста ближе к изображению */
+}
+
+/* Стр Символы */
+/* Картинка */
+.container img {
+  box-shadow: 0 0 15px #eee;
+  max-height: 400px;
+}
+
+/* Заголовок */
+.container h2 {
+  color: #ea5a44;
+  font-size: 2rem;
+}
+
+/* Текст */
+.container p {
+  line-height: 2;
+}
+
