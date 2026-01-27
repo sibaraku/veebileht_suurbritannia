@@ -1,3 +1,12 @@
+/* Шрифты */
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+.font-open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 /* Header растянут на всю ширину */
 .custom-header {
     background-color: #173F71;
@@ -11,6 +20,7 @@
 .nav-link {
     color: white;     
     transition: 0.3s;     
+    font-size: 1.3rem;
 }
 .nav-link:hover {
     color: #7aa6e5;       
