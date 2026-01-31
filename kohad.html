@@ -7,52 +7,47 @@
     <link href="./css/style.css" rel="stylesheet">
     <title>Kuulsad kohad</title>
 </head>
+
 <body class="d-flex flex-column min-vh-100">
+
+    <!-- Peamenüü (header) -->
     <div class="custom-header">
-    <header class="d-flex flex-wrap justify-content-center py-3 border-bottom custom-header">
-        <a
-        href="/"
-        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-        >
-        <span class="fs-3 fw-bold ms-5 text-white">SUURBRITANNIA</span>
-        </a>
-        <ul class="nav nav-pills fs-6 me-5">
-        <li class="nav-item">
-            <a href="index.html" class="nav-link fw-normal">Avaleht</a>
-        </li>
-        <li class="nav-item">
-            <a href="symbolid.html" class="nav-link fw-normal">Sümbolid</a>
-        </li>
-        <li class="nav-item">
-            <a href="#" class="nav-link active fw-normal" aria-current="page">Kuulsad kohad</a>
-        </li>
-        <li class="nav-item">
-            <a href="kontakt.html" class="nav-link fw-normal">Kontakt</a>
-        </li>
-        </ul>
-    </header>
+        <header class="d-flex flex-wrap justify-content-center py-3 border-bottom custom-header">
+            <!-- Logo / pealkiri -->
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <span class="fs-3 fw-bold ms-5 text-white font-montserrat">SUURBRITANNIA</span>
+            </a>
+            
+            <!-- Navigatsioonimenüü -->
+            <ul class="nav nav-pills fs-6 me-5">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link fw-normal">Avaleht</a>
+                </li>
+                <li class="nav-item">
+                    <a href="symbolid.html" class="nav-link fw-normal">Sümbolid</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link active fw-normal" aria-current="page">Kuulsad kohad</a>
+                </li>
+                <li class="nav-item">
+                    <a href="kontakt.html" class="nav-link fw-normal">Kontakt</a>
+                </li>
+            </ul>
+        </header>
     </div> 
 
     <!-- Peamine sisu -->
     <main class="flex-grow-1 container-fluid content-area p-3 text-center">
 
         <!-- Suur ülemine pilt -->
-        <img
-            src="/img/symbols_places.png"
-            class="img-fluid w-75 mt-0"
-            alt="City"
-        >
+        <img src="/img/symbols_places.png" class="img-fluid w-75 mt-0" alt="City">
 
         <!-- Lehe pealkiri ja sissejuhatus -->
         <div class="p-4 p-md-5 mb-4 rounded text-white">
             <div class="col-lg-7 px-0 mx-auto btn-dark">
-
-                <!-- Pealkiri -->
                 <h1 class="display-1 fw-bold text-block text-center text-black font-montserrat">
                     Kuulsad kohad
                 </h1>
-
-                <!-- Kirjeldav tekst -->
                 <p class="fs-4 my-2 text-center red-text fw-bold font-open-sans">
                     Suurbritannia on rikas ajalooliste hoonete ja kultuuriobjektide poolest, 
                     mis meelitavad igal aastal miljoneid turiste üle kogu maailma.
@@ -62,110 +57,132 @@
 
         <hr class="border border-2 opacity-100 mb-2 text-block w-100">
 
-
+        <!-- Kohtade kirjeldused -->
         <div class="container py-5">
-    <div class="row">
-        <!-- Левый блок с текстом -->
-        <div class="col-md-6 pt-3">
-            <small class="text-uppercase" style="color: #9B5DE5;">Buckingham Palace</small>
-            <h1 class="h2 mb-4" style="font-weight: 600;">Buckinghami palee
-                </span>
-            </h1>
-            <p class="text-secondary" style="line-height: 2;">
-                Buckinghami palee on Briti monarhide ametlik residents Londonis. See on üks riigi äratuntavamaid hooneid ja oluline monarhia sümbol.
-                Palee ees toimub regulaarselt vahtkonna vahetuse tseremoonia, mida külastavad tuhanded turistid.
-            </p>
-        </div>
 
-        <!-- Правый блок с фотками -->
-        <div class="col-md-6 text-center mt-4">
-            <div class="row g-2"> <!-- g-2 добавляет небольшой промежуток между фотками -->
-                <div class="col-6">
-                    <img src="img/Buckingham_Palace.jpg" 
-                         class="w-100 rounded" alt="">
+            <!-- Buckinghami palee -->
+            <div class="row">
+                <!-- Tekstiplokk vasakul -->
+                <div class="col-md-6 pt-3">
+                    <small class="text-uppercase text-danger font-montserrat">Buckingham Palace</small>
+                    <h1 class="h2 mb-4 font-montserrat fw-bold" style="font-weight: 600;">Buckinghami palee</h1>
+                    <p class="text-black fs-4 font-open-sans" style="line-height: 2;">
+                        Buckinghami palee on Briti monarhide ametlik residents Londonis. See on üks riigi äratuntavamaid hooneid ja oluline monarhia sümbol.
+                        Palee ees toimub regulaarselt vahtkonna vahetuse tseremoonia, mida külastavad tuhanded turistid.
+                    </p>
                 </div>
-                <div class="col-6">
-                    <img src="img/The_Palace_of_Westminster.jpg" 
-                         class="w-100 rounded" alt="">
+
+                <!-- Fotod ja video paremal -->
+                <div class="col-md-6 text-center mt-4">
+                    <div class="row g-2">
+                        <div class="col-6">
+                            <img src="img/Buckingham_Palace.jpg" class="w-100 rounded" alt="Buckingham Palace 1">
+                        </div>
+                        <div class="col-6">
+                            <img src="img/buckingham_palace2.jpg" class="w-100 rounded" alt="Buckingham Palace 2">
+                        </div>
+                    </div>
+                    <!-- Video -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="video-container mt-4">
+                                    <iframe src="https://www.youtube.com/embed/pObS9e12E2g" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Westminsteri palee -->
+            <div class="row mt-5">
+                <!-- Fotod vasakul -->
+                <div class="col-md-6 text-center mt-4">
+                    <div class="row g-2">
+                        <div class="col-6">
+                            <img src="img/the_palace_of_westminster2.jpg" class="w-100 rounded" alt="Palace of Westminster 1">
+                        </div>
+                        <div class="col-6">
+                            <img src="img/The_Palace_of_Westminster.jpg" class="w-100 rounded" alt="Palace of Westminster 2">
+                        </div>
+                    </div>
+                    <!-- Video -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="video-container mt-4">
+                                    <iframe src="https://www.youtube.com/embed/OrsDmeja7WQ" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tekstiplokk paremal -->
+                <div class="col-md-6 pt-3">
+                    <small class="text-uppercase font-montserrat text-danger">The Palace of Westminster</small>
+                    <h1 class="h2 mb-4 font-montserrat fw-bold" style="font-weight: 600;">Westminsteri palee</h1>
+                    <p class="text-black fs-4 font-open-sans" style="line-height: 2;">
+                        Westminsteri palee on Suurbritannia parlamendi asukoht. Hoone paikneb Londoni kesklinnas ja on oluline osa riigi poliitilisest elust.
+                        Palee kõrval asub kuulus kellatorn Big Ben, mida peetakse samuti üheks Londoni peamiseks sümboliks.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Briti Muuseum -->
+            <div class="row mt-5">
+                <!-- Tekst vasakul -->
+                <div class="col-md-6 pt-3">
+                    <small class="text-uppercase font-montserrat text-danger">British Museum</small>
+                    <h1 class="h2 mb-4 font-montserrat fw-bold" style="font-weight: 600;">Briti Muuseum</h1>
+                    <p class="text-black fs-4 font-open-sans" style="line-height: 2;">
+                        Briti Muuseum on üks maailma suurimaid muuseume Londonis, mille kollektsioonis on umbes 
+                        8 miljonit eksponaati inimkonna ajaloost alates muistsetest aegadest kuni tänapäevani. 
+                        Muuseum on avatud külastajatele üle kogu maailma.
+                    </p>
+                </div>
+
+                <!-- Fotod ja video paremal -->
+                <div class="col-md-6 text-center mt-4">
+                    <div class="row g-2">
+                        <div class="col-6">
+                            <img src="img/British_Museum.jpg" class="w-100 rounded" alt="British Museum 1">
+                        </div>
+                        <div class="col-6">
+                            <img src="img/british_museum2.jpg" class="w-100 rounded" alt="British Museum 2">
+                        </div>
+                    </div>
+                    <!-- Video -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="video-container mt-4">
+                                    <iframe src="https://www.youtube.com/embed/ygkWTK8nbmo" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div class="row mt-5">
-        <!-- Левый блок с фотками -->
-        <div class="col-md-6 text-center mt-4">
-            <div class="row g-2"> <!-- g-2 добавляет небольшой промежуток между фотками -->
-                <div class="col-6">
-                    <img src="img/Buckingham_Palace.jpg" 
-                         class="w-100 rounded" alt="">
-                </div>
-                <div class="col-6">
-                    <img src="img/The_Palace_of_Westminster.jpg" 
-                         class="w-100 rounded" alt="">
-                </div>
-            </div>
-        </div>
-        <!-- Правый блок с текстом -->
-        <div class="col-md-6 pt-3">
-            <small class="text-uppercase" style="color: #9B5DE5;">The Palace of Westminster</small>
-            <h1 class="h2 mb-4" style="font-weight: 600;">Westminsteri palee
-                </span>
-            </h1>
-            <p class="text-secondary" style="line-height: 2;">
-             Westminsteri palee on Suurbritannia parlamendi asukoht. Hoone paikneb Londoni kesklinnas ja on oluline osa riigi poliitilisest elust.
-             Palee kõrval asub kuulus kellatorn Big Ben, mida peetakse samuti üheks Londoni peamiseks sümboliks.
-            </p>
-        </div>
-
-        
-    </div>
-
-
-    <div class="row mt-5">
-        <!-- Левый блок с текстом -->
-        <div class="col-md-6 pt-3">
-            <small class="text-uppercase" style="color: #9B5DE5;">British Muuseum</small>
-            <h1 class="h2 mb-4" style="font-weight: 600;">Briti Muuseum
-                </span>
-            </h1>
-            <p class="text-secondary" style="line-height: 2;">
-            Briti Muuseum on üks maailma suurimaid muuseume Londonis, mille kollektsioonis on umbes 
-            8 miljonit eksponaati inimkonna ajaloost alates muistsetest aegadest kuni tänapäevani. 
-            Muuseum on avatud külastajatele üle kogu maailma.
-            </p>
-        </div>
-
-        <!-- Правый блок с фотками -->
-        <div class="col-md-6 text-center mt-4">
-            <div class="row g-2"> <!-- g-2 добавляет небольшой промежуток между фотками -->
-                <div class="col-6">
-                    <img src="img/Buckingham_Palace.jpg" 
-                         class="w-100 rounded" alt="">
-                </div>
-                <div class="col-6">
-                    <img src="img/The_Palace_of_Westminster.jpg" 
-                         class="w-100 rounded" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
     </main>
-
-
-
 
     <!-- Jalus (footer) -->
     <footer class="custom-footer py-2">
-  <div class="container text-center">
-    <p class="mb-3 fs-6">Email: info@gmail.com | Telefon: +372 1234 5678</p>
-    <p class="mb-1 fs-6">Kõik õigused kaistsud 2026 &copy;</p>
-  </div>
-</footer>
+        <div class="container text-center">
+            <p class="mb-3 fs-6">Email: info@gmail.com | Telefon: +372 1234 5678</p>
+            <p class="mb-1 fs-6">Kõik õigused kaistsud 2026 &copy;</p>
+        </div>
+    </footer>
 
+    <!-- Bootstrapi JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

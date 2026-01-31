@@ -7,106 +7,102 @@
     <link href="./css/style.css" rel="stylesheet">
     <title>Avaleht</title>
 </head>
+
 <body class="d-flex flex-column min-vh-100">
-    <div class="custom-header">
+
+    <!-- Peamenüü (header) -->
     <header class="d-flex flex-wrap justify-content-center py-3 border-bottom custom-header">
-        <a
-        href="/"
-        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-        >
-        <span class="fs-3 fw-bold ms-5 text-white font-montserrat">SUURBRITANNIA</span>
+        <!-- Logo / Pealkiri -->
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <span class="fs-3 fw-bold ms-5 text-white font-montserrat">SUURBRITANNIA</span>
         </a>
+
+        <!-- Navigatsioonimenüü -->
         <ul class="nav nav-pills fs-6 me-5">
-        <li class="nav-item">
-            <a href="#" class="nav-link active fw-normal" aria-current="page">Avaleht</a>
-        </li>
-        <li class="nav-item">
-            <a href="symbolid.html" class="nav-link fw-normal">Sümbolid</a>
-        </li>
-        <li class="nav-item">
-            <a href="kohad.html" class=" nav-link fw-normal">Kuulsad kohad</a>
-        </li>
-        <li class="nav-item">
-            <a href="kontakt.html" class="nav-link fw-normal">Kontakt</a>
-        </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link active fw-normal" aria-current="page">Avaleht</a>
+            </li>
+            <li class="nav-item">
+                <a href="symbolid.html" class="nav-link fw-normal">Sümbolid</a>
+            </li>
+            <li class="nav-item">
+                <a href="kohad.html" class="nav-link fw-normal">Kuulsad kohad</a>
+            </li>
+            <li class="nav-item">
+                <a href="kontakt.html" class="nav-link fw-normal">Kontakt</a>
+            </li>
         </ul>
     </header>
-    </div>  
 
+    <!-- Peamine sisu (main) -->
+    <main class="container-fluid content-area p-3 flex-grow-1">
 
-<main class="container-fluid content-area p-3 flex-grow-1">
-  <div class="p-5 p-md-6 mb-4 rounded text-white" 
-     style="background-image: url('/img/avaleht_4.jpg'); 
-            background-size: cover; 
-            background-position: top;
-            background-repeat: no-repeat;">
-  <div class="col-lg-7 px-0 mx-auto text-outline">
-    <h1 class="display-1 fw-bold text-center pt-5 font-montserrat">Avasta Briti kultuur</h1>
-    <p class="fs-4 my-2 text-center red-text fw-bold font-open-sans">Siia on koondatud teave Suurbritannia kõige tuntumate sümbolite ja paikade kohta</p>
-  </div>
-</div>
-    <div class="text-center mt-4">
-        <hr class="border border-2 opacity-100 mb-2">
-        <div class="d-flex justify-content-center mt-4">
-            <a href="symbolid.html"
-            class="btn btn-primary d-inline-flex align-items-center fw-bold font-open-sans">
-            Loe lähemalt...
-            <svg class="bi ms-1" width="-6" height="40" aria-hidden="true">
-                <use xlink:href="#arrow-right-short"></use>
-            </svg>
-        </a>
-    </div>
-</div>
-<div class="container my-4">
-  <div id="carouselExample" class="carousel slide">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="/img/avaleht_2.jpg" class="d-block w-100" alt="Cityscape of London with the River Thames">
-      </div>
-      <div class="carousel-item">
-        <img src="/img/avaleht_1.jpg" class="d-block w-100" alt="London Eye">
-      </div>
-      <div class="carousel-item">
-        <img src="/img/avaleht_3.jpg" class="d-block w-100" alt="Street">
-      </div>
-    </div>
+        <!-- Esileht - taustapilt ja tutvustav tekst -->
+        <div class="p-5 p-md-6 mb-4 rounded text-white"
+             style="background-image: url('/img/avaleht_4.jpg'); 
+                    background-size: cover; 
+                    background-position: top;
+                    background-repeat: no-repeat;">
+            <div class="col-lg-7 px-0 mx-auto text-outline">
+                <h1 class="display-1 fw-bold text-center pt-5 font-montserrat">Avasta Briti kultuur</h1>
+                <p class="fs-4 my-2 text-center red-text fw-bold font-open-sans">
+                    Siia on koondatud teave Suurbritannia kõige tuntumate sümbolite ja paikade kohta
+                </p>
+            </div>
+        </div>
 
-    <button class="carousel-control-prev" type="button"
-      data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
+        <!-- "Loe lähemalt" nupp -->
+        <div class="text-center mt-4">
+            <hr class="border border-2 opacity-100 mb-2">
+            <div class="d-flex justify-content-center mt-4">
+                <a href="symbolid.html" class="btn btn-primary d-inline-flex align-items-center fw-bold font-open-sans">
+                    Loe lähemalt...
+                    <svg class="bi ms-1" width="-6" height="40" aria-hidden="true">
+                        <use xlink:href="#arrow-right-short"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
 
-    <button class="carousel-control-next" type="button"
-      data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
-  </div>
-</div>
+        <!-- Pildigalerii (Bootstrap karussell) -->
+        <div class="container my-4">
+            <div id="carouselExample" class="carousel slide">
 
-</main>
+                <!-- Karusselli pildid -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/img/avaleht_2.jpg" class="d-block w-100" alt="Cityscape of London with the River Thames">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/avaleht_1.jpg" class="d-block w-100" alt="London Eye">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/avaleht_3.jpg" class="d-block w-100" alt="Street">
+                    </div>
+                </div>
 
+                <!-- Karusselli navigeerimisnupud -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
 
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Jaluse sisu (footer) -->
     <footer class="custom-footer py-2">
-  <div class="container text-center">
-    <p class="mb-3 fs-6">Email: info@gmail.com | Telefon: +372 1234 5678</p>
-    <p class="mb-1 fs-6">Kõik õigused kaistsud 2026 &copy;</p>
-  </div>
-</footer>
+        <div class="container text-center">
+            <p class="mb-3 fs-6">Email: info@gmail.com | Telefon: +372 1234 5678</p>
+            <p class="mb-1 fs-6">Kõik õigused kaitstud 2026 &copy;</p>
+        </div>
+    </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

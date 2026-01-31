@@ -1,13 +1,12 @@
-/* Шрифты */
+/* FONDID */
 .font-montserrat {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif; /* Montserrat font */
 }
 .font-open-sans {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; /* Open Sans font */
 }
 
-
-/* Header растянут на всю ширину */
+/* HEADER */
 .custom-header {
     background-color: #173F71;
     max-width: 100vw;
@@ -16,16 +15,18 @@
     color: white;
 }
 
-/* Навигационные ссылки */
+/* NAVIGATSIOON */
+/* Navigatsiooni lingid */
 .nav-link {
-    color: white;     
-    transition: 0.3s;     
-    font-size: 1.3rem;
+    color: white; 
+    transition: 0.3s; /* sujuv üleminek hoveril */
+    font-size: 1.3rem; 
 }
 .nav-link:hover {
-    color: #7aa6e5;       
+    color: #7aa6e5;
 }
 
+/* FOOTER */
 .custom-footer {
     background-color: #173F71;
     max-width: 100vw;
@@ -33,28 +34,31 @@
     color: white;
 }
 
+/* SISUALA */
 .content-area {
     background-color: #F3F1EC; 
     max-width: 100vw;
     width: 100%;
-    margin: 0;   
-    padding: 0; 
+    margin: 0;
+    padding: 0;
 }
 
+/* Teksti vari */
 .text-outline {
   text-shadow:
     0 0 3px #000,
     0 0 6px #464040;
 }
 
+/* Punane tekst */
 .red-text {
   color: #EA3E24;
 }
 
-
-/* красная кнопка */
+/* NUPUD */
+/* Peamine punane nupp */
 .btn-primary {
-  background-color: #EA3E24;      /* твой основной красный */
+  background-color: #EA3E24; 
   border: none;
   color: #fff;
   padding: 0.45rem 1.2rem;
@@ -63,37 +67,85 @@
   font-size: 1.3rem;
   text-align: center;
 }
-
-/* Наведение — светло-красный */
 .btn-primary:hover {
-  background-color: #ea5a44;      /* светло-красный */
+  background-color: #ea5a44;
   color: #fff;
 }
 
+/* GALERII */
 .carousel-inner img {
-  max-height: 400px;
-  object-fit: cover;
+  max-height: 400px; /* maksimaalne kõrgus */
+  object-fit: cover; /* säilitab proportsioonid */
 }
 
+/* Tekstiplokk piltide kohal */
 .text-block {
-  margin-top: -35px; /* Поднимает весь блок текста ближе к изображению */
+  margin-top: -35px; /* liigutab teksti lähemale pildile */
 }
 
-/* Стр Символы */
-/* Картинка */
+/* SISU KONTSEPTSIOON */
+/* Pildid */
 .container img {
-  box-shadow: 0 0 15px #eee;
+  box-shadow: 0 0 15px #eee; 
   max-height: 400px;
 }
 
-/* Заголовок */
+/* Pealkirjad */
 .container h2 {
   color: #ea5a44;
   font-size: 2rem;
 }
 
-/* Текст */
+/* Tekst */
 .container p {
-  line-height: 2;
+  line-height: 2; /* tekstiridade vahe */
 }
 
+/* VIDEO KONTAINER */
+.video-container {
+    position: relative;
+    padding-bottom: 40%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* VORM */
+.card {
+    border-radius: 10px;
+}
+.card-body {
+    background-color: #f0f0f0;
+    padding: 2rem;
+}
+.card-title {
+    margin-bottom: 1.5rem;
+}
+
+/* Nupud vormis */
+.btn-primary {
+    background-color: #ea5a44;
+    border-color: #ea5a44;
+}
+.btn-primary:hover {
+    background-color: #dd9b91;
+    border-color: #dd9b91;
+}
+
+/* IKONID */
+.contact-icon {
+    color: #173F71; /* ikoonide värv */
+}
+.contact-text {
+    font-size: 1.2rem;
+}
