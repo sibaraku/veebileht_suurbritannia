@@ -1,0 +1,31 @@
+/* navigatsioon */
+header .nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 3rem;
+}
+
+header .nav-item {
+    width: 50%;
+    text-align: center;
+}
+
+header .nav-link {
+    padding: 0.6rem 0;
+}
+
+/* Peamine sisu ala */
+.main .content-area {
+    padding: 1rem;
+}
+
+/* Pealkiri (h1) suurus */
+h1.display-1 {
+    font-size: 2rem;
+}
+
+/* Teksti suurus klassile fs-4 */
+.fs-4 {
+        font-size: 1.2rem !important;
+    }
